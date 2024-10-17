@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="java.js"></script>
+  </head>
+  <body>
+    <h1>Simulação de Compra</h1>
+
+    <section>
+      <h2>Produtos Disponíveis</h2>
+      <div id="produtos">Bala</div>
+      <div id="produtos">Bola Quadrada</div>
+      <div id="produtos">Brilho</div>
+      <div id="produtos">Pirulito</div>
+      <div id="produtos">Caixa Bombom</div>
+    </section>
+
+    <section>
+      <h2>Adicionar ao Carrinho</h2>
+      <input type="text" id="busca" placeholder="Buscar produto pelo nome" />
+      <button onclick="buscarProduto()">Buscar</button>
+      <button onclick="adicionarCarrinho()">Adicionar ao Carrinho</button>
+    </section>
+
+    <section class="carrinho">
+      <h2>Carrinho de Compras</h2>
+      <div id="carrinho"></div>
+      <div id="total"></div>
+    </section>
+  </body>
+</html>
